@@ -28,9 +28,9 @@ function myfunction(){
             document.getElementById("para").innerText= randomNumber;
             localStorage.setItem('otp',randomNumber)
                 toastBootstrap.show()
-                // setTimeout(()=>{
-                //     window.location.href="login.html"
-                // },5000)
+                setTimeout(()=>{
+                    window.location.href="login.html"
+                 },5000)
          document.getElementById("mess").innerText="OTP successfully"
           document.getElementById("mess").style.color="green"
           document.getElementById("mess").style.display = "block"; 
