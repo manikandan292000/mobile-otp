@@ -48,10 +48,9 @@ function myfunction(){
 
 let full_box=document.querySelector("#full_box")
 let inputs=document.querySelectorAll(".input")
-let otp=""
+
 function mybutton(){
-
-
+let otp=""
     inputs.forEach((elm)=>{
         otp+=elm.value
         elm.value=""
